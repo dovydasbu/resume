@@ -1,0 +1,32 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #141c3a;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+
+    @media (max-width: 1250px) {
+        width: 900px;
+    }
+
+    @media (max-width: 940px) {
+        width: 600px;
+    }
+
+    @media (max-width: 630px) {
+        width: 100%;
+    }
+}
+
+@import "./partials/welcome";
+@import "./partials/introduction";
+@import "./partials/skills";
+@import "./partials/experience";
