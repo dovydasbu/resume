@@ -15,4 +15,12 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home');
-});
+})->name('home');
+
+Route::get('/{page}', function (string $page) {
+    if (!view()->exists($page)) {
+        abort(404);
+    }
+
+    return view($page);
+})->name('page');
