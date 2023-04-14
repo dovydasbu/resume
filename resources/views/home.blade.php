@@ -219,69 +219,7 @@
 
                                 <div class="p-40"></div>
 
-                                <!-- Clients Slider -->
-                                <div class="block-title">
-                                    <h2>{{ __('Clients') }}</h2>
-                                </div>
-
-                                <div id="clients_1" class="clients owl-carousel" data-mobile-items="1" data-tablet-items="3" data-items="6">
-                                    <div class="client-block">
-                                        <a href="#" target="_blank" title="Golden Grid">
-                                            <img src="./img/clients/client-1.png" alt="Golden Grid">
-
-                                            <p>Dizaino arkliukas</p>
-                                        </a>
-                                    </div>
-
-                                    <div class="client-block">
-                                        <a href="#" target="_blank" title="Sweety">
-                                            <img src="./img/clients/client-2.png" alt="Sweety">
-
-                                            <p>Digital AZ</p>
-                                        </a>
-                                    </div>
-
-                                    <div class="client-block">
-                                        <a href="#" target="_blank" title="Magic Furnitures">
-                                            <img src="./img/clients/client-3.png" alt="Magic Furnitures">
-
-                                            <p>Kinfirm</p>
-                                        </a>
-                                    </div>
-
-                                    <div class="client-block">
-                                        <a href="#" target="_blank" title="LifeGuard">
-                                            <img src="./img/clients/client-4.png" alt="LifeGuard">
-
-                                            <p>Transkiedra</p>
-                                        </a>
-                                    </div>
-
-                                    <div class="client-block">
-                                        <a href="#" target="_blank" title="LESS">
-                                            <img src="./img/clients/client-5.png" alt="LESS">
-
-                                            <p>Citynow</p>
-                                        </a>
-                                    </div>
-
-                                    <div class="client-block">
-                                        <a href="#" target="_blank" title="Design Lovers">
-                                            <img src="./img/clients/client-6.png" alt="Design Lovers">
-
-                                            <p>Simba.lt</p>
-                                        </a>
-                                    </div>
-
-                                    <div class="client-block">
-                                        <a href="#" target="_blank" title="WordPress">
-                                            <img src="./img/clients/client-7.png" alt="WordPress">
-
-                                            <p>Aikela</p>
-                                        </a>
-                                    </div>
-                                </div>
-                                <!-- /Clients Slider -->
+                                @include('partials.home.clients')
 
                                 <div class="p-40"></div>
 
