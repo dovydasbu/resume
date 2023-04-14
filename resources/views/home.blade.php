@@ -17,7 +17,7 @@
 
                                         <div class="col-sm-12 col-md-5 col-lg-5">
                                             <div class="home-photo">
-                                                <div class="hp-inner" style="background-image: url(./img/main_photo.jpg);">
+                                                <div class="hp-inner" style="background-image: url({{ asset('img/profile.jpg') }});">
                                                 </div>
                                             </div>
                                         </div>
@@ -26,20 +26,24 @@
                                             <div class="home-text hp-left">
                                                 <div class="owl-carousel text-rotation">
                                                     <div class="item">
-                                                        <h4>Frontend-developer</h4>
+                                                        <h4>{{ __('Web Developer') }}</h4>
                                                     </div>
 
                                                     <div class="item">
-                                                        <h4>Web Designer</h4>
+                                                        <h4>{{ __('Based in Lithuania') }}</h4>
+                                                    </div>
+
+                                                    <div class="item">
+                                                        <h4>{{ __('Ready to build something cool!') }}</h4>
                                                     </div>
                                                 </div>
 
-                                                <h1>Alex Smith</h1>
-                                                <p>Fusce tempor magna mi, non egestas velit ultricies nec. Aenean convallis, risus non condimentum gravida, odio mauris ullamcorper felis, ut venenatis purus ex eu mi. Quisque imperdiet lacinia urna, a placerat sapien pretium eu.</p>
+                                                <h1>Dovydas Bukauskas</h1>
+                                                <p>{{ __('Developing all kinds of web and mobile applications, business management systems. Highly intereseted in architecture and backend solutions of developed software, nevertheless can manage frontend tasks with confidence.') }}</p>
 
                                                 <div class="home-buttons">
-                                                    <a href="#" target="_blank" class="btn btn-primary">Download CV</a>
-                                                    <a href="#" target="_self" class="btn btn-secondary">Contact</a>
+                                                    <a href="{{ asset('files/Dovydas-Bukauskas-CV.pdf') }}" download class="btn btn-primary">{{ __('Download CV') }}</a>
+                                                    <a href="{{ route('page', 'contacts') }}" target="_self" class="btn btn-secondary">{{ __('Contact') }}</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -65,22 +69,11 @@
                                 <div class="info-list-w-icon">
                                     <div class="info-block-w-icon">
                                         <div class="ci-icon">
-                                            <i class="linecons linecons-pen"></i>
+                                            <i class="linecons linecons-settings"></i>
                                         </div>
 
                                         <div class="ci-text">
-                                            <h4>Copywrite</h4>
-                                            <p>Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris convallis dictum elit id volutpat. Vivamus blandit, dolor vitae lacinia maximus, risus velit vehicula odio, a tincidunt turpis turpis tempus ex.</p>
-                                        </div>
-                                    </div>
-
-                                    <div class="info-block-w-icon">
-                                        <div class="ci-icon">
-                                            <i class="linecons linecons-display"></i>
-                                        </div>
-
-                                        <div class="ci-text">
-                                            <h4>Web Design</h4>
+                                            <h4>Backend Development</h4>
                                             <p>Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris convallis dictum elit id volutpat. Vivamus blandit, dolor vitae lacinia maximus, risus velit vehicula odio, a tincidunt turpis turpis tempus ex.</p>
                                         </div>
                                     </div>
@@ -92,22 +85,11 @@
 
                                     <div class="info-block-w-icon">
                                         <div class="ci-icon">
-                                            <i class="linecons linecons-shop"></i>
+                                            <i class="linecons linecons-display"></i>
                                         </div>
 
                                         <div class="ci-text">
-                                            <h4>Ecommerce</h4>
-                                            <p>Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris convallis dictum elit id volutpat. Vivamus blandit, dolor vitae lacinia maximus, risus velit vehicula odio, a tincidunt turpis turpis tempus ex.</p>
-                                        </div>
-                                    </div>
-
-                                    <div class="info-block-w-icon">
-                                        <div class="ci-icon">
-                                            <i class="linecons linecons-megaphone"></i>
-                                        </div>
-
-                                        <div class="ci-text">
-                                            <h4>Marketing</h4>
+                                            <h4>Frontend Development</h4>
                                             <p>Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris convallis dictum elit id volutpat. Vivamus blandit, dolor vitae lacinia maximus, risus velit vehicula odio, a tincidunt turpis turpis tempus ex.</p>
                                         </div>
                                     </div>
@@ -239,49 +221,63 @@
 
                                 <!-- Clients Slider -->
                                 <div class="block-title">
-                                    <h2>Clients</h2>
+                                    <h2>{{ __('Clients') }}</h2>
                                 </div>
 
                                 <div id="clients_1" class="clients owl-carousel" data-mobile-items="1" data-tablet-items="3" data-items="6">
                                     <div class="client-block">
                                         <a href="#" target="_blank" title="Golden Grid">
                                             <img src="./img/clients/client-1.png" alt="Golden Grid">
+
+                                            <p>Dizaino arkliukas</p>
                                         </a>
                                     </div>
 
                                     <div class="client-block">
                                         <a href="#" target="_blank" title="Sweety">
                                             <img src="./img/clients/client-2.png" alt="Sweety">
+
+                                            <p>Digital AZ</p>
                                         </a>
                                     </div>
 
                                     <div class="client-block">
                                         <a href="#" target="_blank" title="Magic Furnitures">
                                             <img src="./img/clients/client-3.png" alt="Magic Furnitures">
+
+                                            <p>Kinfirm</p>
                                         </a>
                                     </div>
 
                                     <div class="client-block">
                                         <a href="#" target="_blank" title="LifeGuard">
                                             <img src="./img/clients/client-4.png" alt="LifeGuard">
+
+                                            <p>Transkiedra</p>
                                         </a>
                                     </div>
 
                                     <div class="client-block">
                                         <a href="#" target="_blank" title="LESS">
                                             <img src="./img/clients/client-5.png" alt="LESS">
+
+                                            <p>Citynow</p>
                                         </a>
                                     </div>
 
                                     <div class="client-block">
                                         <a href="#" target="_blank" title="Design Lovers">
                                             <img src="./img/clients/client-6.png" alt="Design Lovers">
+
+                                            <p>Simba.lt</p>
                                         </a>
                                     </div>
 
                                     <div class="client-block">
                                         <a href="#" target="_blank" title="WordPress">
                                             <img src="./img/clients/client-7.png" alt="WordPress">
+
+                                            <p>Aikela</p>
                                         </a>
                                     </div>
                                 </div>
@@ -314,8 +310,8 @@
                             <div class="col-xs-12 col-sm-3">
                                 <div class="lm-info-block gray-default">
                                     <i class="linecons linecons-clock"></i>
-                                    <h4>Working Hours</h4>
-                                    <span class="lm-info-block-value">4,780</span>
+                                    <h4>Working Days</h4>
+                                    <span class="lm-info-block-value">{{ now()->diffInDays('2017-01-01') }}</span>
                                     <span class="lm-info-block-text"></span>
                                 </div>
                             </div>
@@ -333,7 +329,7 @@
                                 <div class="lm-info-block gray-default">
                                     <i class="linecons linecons-cup"></i>
                                     <h4>Coffee Consumed</h4>
-                                    <span class="lm-info-block-value">1,286</span>
+                                    <span class="lm-info-block-value">&#8734;</span>
                                     <span class="lm-info-block-text"></span>
                                 </div>
                             </div>
@@ -341,92 +337,6 @@
                         <!-- /Fun Facts -->
 
                         <div class="p-40"></div>
-
-                        <!-- Pricing -->
-                        <div class="row">
-                            <div class=" col-xs-12 col-sm-12 ">
-                                <div class="block-title">
-                                    <h2>Pricing</h2>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="row">
-                            <div class=" col-xs-12 col-sm-12 ">
-                                <div class="fw-pricing clearfix row">
-
-                                    <div class="fw-package-wrap col-md-4 ">
-                                        <div class="fw-package">
-                                            <div class="fw-heading-row">
-                                                <span>Silver</span>
-                                            </div>
-
-                                            <div class="fw-pricing-row">
-                                                <span>$64</span>
-                                                <small>per month</small>
-                                            </div>
-
-                                            <div class="fw-button-row">
-                                                <a href="#" target="_self" class="btn btn-secondary">Free Trial</a>
-                                            </div>
-
-                                            <div class="fw-default-row">Lorem ipsum dolor</div>
-                                            <div class="fw-default-row">Pellentesque scelerisque</div>
-                                            <div class="fw-default-row">Morbi eu sagittis</div>
-                                        </div>
-                                    </div>
-
-                                    <div class="fw-package-wrap col-md-4 highlight-col ">
-                                        <div class="fw-package">
-                                            <div class="fw-heading-row">
-                                                <span>Gold</span>
-                                            </div>
-
-                                            <div class="fw-pricing-row">
-                                                <span>$128</span>
-                                                <small>per month</small>
-                                            </div>
-
-                                            <div class="fw-button-row">
-                                                <a href="#" target="_self" class="btn btn-primary">Free Trial</a>
-                                            </div>
-
-                                            <div class="fw-default-row">Lorem ipsum dolor</div>
-                                            <div class="fw-default-row">Pellentesque scelerisque</div>
-                                            <div class="fw-default-row">Morbi eu sagittis</div>
-                                            <div class="fw-default-row">Donec non diam</div>
-                                            <div class="fw-default-row">
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="fw-package-wrap col-md-4 default-col ">
-                                        <div class="fw-package">
-                                            <div class="fw-heading-row">
-                                                <span>Platinum</span>
-                                            </div>
-
-                                            <div class="fw-pricing-row">
-                                                <span>$256</span>
-                                                <small>per month</small>
-                                            </div>
-
-                                            <div class="fw-button-row">
-                                                <a href="#" target="_self" class="btn btn-primary">Free Trial</a>
-                                            </div>
-
-                                            <div class="fw-default-row">Lorem ipsum dolor</div>
-                                            <div class="fw-default-row">Pellentesque scelerisque</div>
-                                            <div class="fw-default-row">Morbi eu sagittis</div>
-                                            <div class="fw-default-row">Donec non diam</div>
-                                            <div class="fw-default-row">Aenean nec libero</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- /Pricing -->
-                        </div>
 
                     </div>
                 </div>
