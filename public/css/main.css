@@ -1909,11 +1909,17 @@ ul.social-links li:last-child a {
   margin-bottom: 0;
 }
 
-.info-block-w-icon i {
+.info-block-w-icon i,
+.info-block-w-icon svg
+{
   position: relative;
   display: table-cell;
   font-size: 33px;
   color: #007ced;
+}
+
+.info-block-w-icon svg {
+  width: 33px;
 }
 
 .info-block-w-icon img {
@@ -5852,3 +5858,11 @@ a.post-thumbnail:hover {
 /* =============================================================================
 15. Updates
 ============================================================================= */
+
+.margin-0 {
+  margin: 0 !important;
+}
+
+.contacts-email-head {
+  font-size: 16px;
+}

@@ -1,4 +1,6 @@
-@extends('layouts.app')
+@extends('layouts.app', [
+    'title' => __('Resume')
+])
 
 @section('content')
     <div id="page_container" class="page-container" data-animation="transition-flip-in-right">
@@ -12,7 +14,7 @@
                     <div class="page-title">
                         <h1>Resume</h1>
                         <div class="page-subtitle">
-                            <h4> 8 Years of Experience</h4>
+                            <h4> 6 Years of Experience</h4>
                         </div>
                     </div>
 
@@ -26,24 +28,24 @@
 
                                 <div id="timeline_1" class="timeline clearfix">
                                     <div class="timeline-item clearfix">
-                                        <h5 class="item-period ">2009</h5>
-                                        <span class="item-company">University of Studies</span>
-                                        <h4 class="item-title">UI Design</h4>
-                                        <p>Duis posuere, quam non imperdiet egestas, eros enim mattis mauris, in posuere lacus arcu quis felis. Etiam interdum erat non enim venenatis fermentum.</p>
+                                        <h5 class="item-period ">2016 - 2020</h5>
+                                        <span class="item-company">University of Vilnius</span>
+                                        <h4 class="item-title">Bachelors degree</h4>
+                                        <p>Finished university while developing a real estate evaluation app with Citynow client.</p>
                                     </div>
 
                                     <div class="timeline-item clearfix">
-                                        <h5 class="item-period ">2008</h5>
-                                        <span class="item-company">University of Studies</span>
-                                        <h4 class="item-title">Graphic Design</h4>
-                                        <p>Aliquam tincidunt malesuada tortor vitae iaculis. In eu turpis iaculis, feugiat risus quis, aliquet urna. Quisque fringilla mollis risus, eu pulvinar dolor.</p>
+                                        <h5 class="item-period ">2016</h5>
+                                        <span class="item-company">3W academy</span>
+                                        <h4 class="item-title">Web development courses</h4>
+                                        <p>3 months intensive web development course after which I got a good kickstart for web development career.</p>
                                     </div>
 
                                     <div class="timeline-item clearfix">
-                                        <h5 class="item-period ">2007</h5>
-                                        <span class="item-company">University of Studies</span>
-                                        <h4 class="item-title">Frontend Development</h4>
-                                        <p>Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis ante.</p>
+                                        <h5 class="item-period ">2012-2016</h5>
+                                        <span class="item-company">Vilnius Žirmūnai gymnasium</span>
+                                        <h4 class="item-title">High School</h4>
+                                        <p>Finished top 5 gymnasium in whole Lithuania.</p>
                                     </div>
 
                                 </div>
@@ -56,24 +58,24 @@
 
                                 <div id="timeline_2" class="timeline clearfix">
                                     <div class="timeline-item clearfix">
-                                        <h5 class="item-period current">2016 - Current</h5>
-                                        <span class="item-company">Rolling Thunder</span>
-                                        <h4 class="item-title">Lead UI/UX Designer</h4>
-                                        <p>Praesent dignissim sollicitudin justo, sed elementum quam lacinia quis. Phasellus eleifend tristique posuere. Sed vitae dui nec magna.</p>
+                                        <h5 class="item-period current">2021 - Current</h5>
+                                        <span class="item-company">Kinfirm</span>
+                                        <h4 class="item-title">Web Developer</h4>
+                                        <p>Developed B2B principle based software in order to help clients organize companies work with a centralized software units.</p>
                                     </div>
 
                                     <div class="timeline-item clearfix">
-                                        <h5 class="item-period ">2013 - 2016</h5>
-                                        <span class="item-company">Locost Accessories</span>
-                                        <h4 class="item-title">Senior UI/UX Designer</h4>
-                                        <p>Maecenas tempus faucibus rutrum. Duis eu aliquam urna. Proin vitae nulla tristique, ornare felis id, congue libero. Nam volutpat euismod quam.</p>
+                                        <h5 class="item-period ">2018 - 2021</h5>
+                                        <span class="item-company">Digital AZ</span>
+                                        <h4 class="item-title">Web Developer</h4>
+                                        <p>Mainly worked with laravel and wordpress. Time to time front-end and mobile development tasks were taken care of :)</p>
                                     </div>
 
                                     <div class="timeline-item clearfix">
-                                        <h5 class="item-period ">2011 - 2013</h5>
-                                        <span class="item-company">Sagebrush</span>
-                                        <h4 class="item-title">Junior UI/UX Designer</h4>
-                                        <p>Duis mollis nunc quis quam viverra venenatis. Nulla nulla arcu, congue vitae nunc ac, sodales ultricies diam. Nullam justo leo, tincidunt sit amet.</p>
+                                        <h5 class="item-period ">2017 - 2018</h5>
+                                        <span class="item-company">Dizaino arkliukas</span>
+                                        <h4 class="item-title">Junior Web Developer</h4>
+                                        <p>Developed websites mainly on wordpress, had a touch with laravel projects. Needed a lot of out of the box thinking in order to adapt wordpress for custom solutions.</p>
                                     </div>
                                 </div>
                             </div>
