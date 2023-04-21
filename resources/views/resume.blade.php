@@ -68,7 +68,7 @@
                                         <h5 class="item-period ">2018 - 2021</h5>
                                         <span class="item-company">Digital AZ</span>
                                         <h4 class="item-title">Web Developer</h4>
-                                        <p>Mainly worked with laravel and wordpress. Time to time front-end and mobile development tasks were taken care of :)</p>
+                                        <p>Mainly worked with laravel and wordpress. Time to time front-end and mobile development tasks were taken care of.</p>
                                     </div>
 
                                     <div class="timeline-item clearfix">
@@ -93,22 +93,22 @@
 
                         <div class="row">
                             <div class=" col-xs-12 col-sm-6 ">
-                                <a href="//lmpixels.com/wp/leven-wp/wp-content/uploads/2019/11/1.jpg" class="lightbox">
+                                <div href="#" class="">
                                     <div class="certificate-item clearfix">
                                         <div class="certi-logo">
-                                            <img src="./img/clients/client-7.png" alt="logo">
+                                            <img src="{{ asset('/img/courses/3w_academy.jpg') }}" alt="logo">
                                         </div>
 
                                         <div class="certi-content">
                                             <div class="certi-title">
-                                                <h4>Psyhology of Intertnation Design</h4>
+                                                <h4>3W Academy</h4>
                                             </div>
 
                                             <div class="certi-id">
-                                                <span>Membership ID: XXXX</span>
+                                                <span>Web Technologies</span>
                                             </div>
                                             <div class="certi-date">
-                                                <span>19 April 2018</span>
+                                                <span>August 2016</span>
                                             </div>
 
                                             <div class="certi-company">
@@ -116,37 +116,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                             </div>
-
-                            <div class=" col-xs-12 col-sm-6 ">
-                                <a href="//lmpixels.com/wp/leven-wp/wp-content/uploads/2019/11/1.jpg" class="lightbox">
-                                    <div class="certificate-item clearfix">
-                                        <div class="certi-logo">
-                                            <img src="//lmpixels.com/wp/leven-wp/wp-content/uploads/2019/12/client-1.png" alt="logo">
-                                        </div>
-
-                                        <div class="certi-content">
-                                            <div class="certi-title">
-                                                <h4>Psyhology of Intertnation Design</h4>
-                                            </div>
-
-                                            <div class="certi-id">
-                                                <span>Membership ID: XXXX</span>
-                                            </div>
-
-                                            <div class="certi-date">
-                                                <span>19 April 2018</span>
-                                            </div>
-
-                                            <div class="certi-company">
-                                                <span></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-
                         </div>
 
                         <div class="row">
@@ -158,48 +129,48 @@
                         <div class="row">
                             <div class=" col-xs-12 col-sm-6 ">
                                 <div class="block-title">
-                                    <h2>Design Skills</h2>
+                                    <h2>Frontend Skills</h2>
                                 </div>
 
                                 <div id="skills_1" class="skills-info skills-first-style">
                                     <!-- Skill 1 -->
                                     <div class="clearfix">
-                                        <h4>UI/UX Design</h4>
-                                        <div class="skill-value">95%</div>
+                                        <h4>React.js</h4>
+                                        <div class="skill-value">80%</div>
                                     </div>
 
-                                    <div id="skill_1" data-value="95" class="skill-container">
+                                    <div id="skill_1" data-value="80" class="skill-container">
                                         <div class="skill-percentage"></div>
                                     </div>
                                     <!-- /Skill 1 -->
 
                                     <!-- Skill 2 -->
                                     <div class="clearfix">
-                                        <h4>Print Design</h4>
-                                        <div class="skill-value">75%</div>
+                                        <h4>Vue.js</h4>
+                                        <div class="skill-value">70%</div>
                                     </div>
 
-                                    <div id="skill_2" data-value="75" class="skill-container">
+                                    <div id="skill_2" data-value="70" class="skill-container">
                                         <div class="skill-percentage"></div>
                                     </div>
                                     <!-- /Skill 2 -->
 
                                     <!-- Skill 3 -->
                                     <div class="clearfix">
-                                        <h4>Graphic Design</h4>
-                                        <div class="skill-value">85%</div>
+                                        <h4>React Native</h4>
+                                        <div class="skill-value">65%</div>
                                     </div>
-                                    <div id="skill_3" data-value="85" class="skill-container">
+                                    <div id="skill_4" data-value="65" class="skill-container">
                                         <div class="skill-percentage"></div>
                                     </div>
                                     <!-- Skill 3 -->
 
                                     <!-- Skill 4 -->
                                     <div class="clearfix">
-                                        <h4>Logo Design</h4>
-                                        <div class="skill-value">90%</div>
+                                        <h4>Alpine.js</h4>
+                                        <div class="skill-value">95%</div>
                                     </div>
-                                    <div id="skill_4" data-value="90" class="skill-container">
+                                    <div id="skill_3" data-value="95" class="skill-container">
                                         <div class="skill-percentage"></div>
                                     </div>
                                     <!-- /Skill 4 -->
@@ -210,24 +181,24 @@
 
                             <div class=" col-xs-12 col-sm-6 ">
                                 <div class="block-title">
-                                    <h2>Coding Skills</h2>
+                                    <h2>Backend Skills</h2>
                                 </div>
-
 
                                 <div id="skills_2" class="skills-info skills-first-style">
                                     <!-- Skill 5 -->
                                     <div class="clearfix">
-                                        <h4>HTML / CSS</h4>
-                                        <div class="skill-value">100%</div>
+                                        <h4>PHP</h4>
+                                        <div class="skill-value">90%</div>
                                     </div>
-                                    <div id="skill_5" data-value="100" class="skill-container">
+
+                                    <div id="skill_5" data-value="90" class="skill-container">
                                         <div class="skill-percentage"></div>
                                     </div>
                                     <!-- /Skill 5 -->
 
                                     <!-- Skill 6 -->
                                     <div class="clearfix">
-                                        <h4>PHP</h4>
+                                        <h4>Laravel</h4>
                                         <div class="skill-value">90%</div>
                                     </div>
                                     <div id="skill_6" data-value="90" class="skill-container">
@@ -237,20 +208,20 @@
 
                                     <!-- Skill 7 -->
                                     <div class="clearfix">
-                                        <h4>JavaScript</h4>
-                                        <div class="skill-value">90%</div>
+                                        <h4>MySQL</h4>
+                                        <div class="skill-value">75%</div>
                                     </div>
-                                    <div id="skill_7" data-value="90" class="skill-container">
+                                    <div id="skill_7" data-value="75" class="skill-container">
                                         <div class="skill-percentage"></div>
                                     </div>
                                     <!-- /Skill 7 -->
 
                                     <!-- Skill 8 -->
                                     <div class="clearfix">
-                                        <h4>Smarty / Twig</h4>
-                                        <div class="skill-value">85%</div>
+                                        <h4>GIT</h4>
+                                        <div class="skill-value">90%</div>
                                     </div>
-                                    <div id="skill_8" data-value="85" class="skill-container">
+                                    <div id="skill_8" data-value="90" class="skill-container">
                                         <div class="skill-percentage"></div>
                                     </div>
                                     <!-- /Skill 8 -->
