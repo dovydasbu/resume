@@ -14,7 +14,6 @@
 	.contact-form-restriction {
 		text-align: center;
 		position: absolute;
-		display: flex;
 		justify-content: center;
 		width: 100%;
 		align-items: center;
@@ -22,5 +21,10 @@
 		padding-bottom: 16px;
 		background: rgb(245 245 245 / 50%);
 		z-index: 9;
+		display: none;
+
+		&.is-visible {
+			display: flex;
+		}
 	}
 }

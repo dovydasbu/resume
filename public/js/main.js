@@ -111,7 +111,8 @@
                                     $('#contact_form')[0].reset();
 
                                     if (data.type === 'success') {
-                                        console.log('adfasdf')
+                                        document.querySelector('#contact_form .contact-form-restriction').classList.add('is-visible')
+                                        document.querySelector('#contact_form .fields-wrap').classList.add('opacity-when-submitted')
                                     }
                                 }
                             }

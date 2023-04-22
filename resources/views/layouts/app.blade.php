@@ -9,7 +9,7 @@
     <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, portfolio" />
     <meta name="author" content="lmpixels" />
     <meta name="csrf-token" content="{{ csrf_token() }}" />
-    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="shortcut icon" href="{{ asset('/favicon.ico') }}">
     @vite('resources/css/app.scss')
 
     <link rel="stylesheet" href="{{ asset('css/normalize.css') }}" type="text/css">
