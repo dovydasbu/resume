@@ -79,24 +79,46 @@
 
         $('#contact_form').on('submit', function (e) {
             if (!e.isDefaultPrevented()) {
-                var url = "contact_form/contact_form.php";
+                var url = "contacts-post";
 
-                $.ajax({
-                    type: "POST",
-                    url: url,
-                    data: $(this).serialize(),
-                    success: function (data)
-                    {
-                        var messageAlert = 'alert-' + data.type;
-                        var messageText = data.message;
+                const name = document.querySelector('#form_name').value
+                const email = document.querySelector('#form_email').value
+                const subject = document.querySelector('#form_subject').value
+                const message = document.querySelector('#form_message').value
 
-                        var alertBox = '<div class="alert ' + messageAlert + ' alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>' + messageText + '</div>';
-                        if (messageAlert && messageText) {
-                            $('#contact_form').find('.messages').html(alertBox);
-                            $('#contact_form')[0].reset();
-                        }
-                    }
-                });
+                grecaptcha.enterprise.ready(function() {
+                    grecaptcha.enterprise.execute('6Leyc6olAAAAAPV8lXHcsEf9mzIURup0g8wuZVwJ', {action: 'login'}).then(function(token) {
+                        $.ajax({
+                            type: "POST",
+                            url: url,
+                            headers: {
+                                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                            },
+                            data: {
+                                name,
+                                email,
+                                subject,
+                                message
+                            },
+                            success: function (data)
+                            {
+                                var messageAlert = 'alert-' + data.type;
+                                var messageText = data.message;
+
+                                var alertBox = '<div class="alert ' + messageAlert + ' alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>' + messageText + '</div>';
+                                if (messageAlert && messageText) {
+                                    $('#contact_form').find('.messages').html(alertBox);
+                                    $('#contact_form')[0].reset();
+
+                                    if (data.type === 'success') {
+                                        console.log('adfasdf')
+                                    }
+                                }
+                            }
+                        });
+                    })
+                })
+
                 return false;
             }
         });
@@ -111,7 +133,7 @@
                 portfolio_grid = $('#' + portfolio_grid_container_id + ' .portfolio-grid'),
                 portfolio_filter = $('#' + portfolio_grid_container_id + ' .portfolio-filters'),
                 portfolio_filter_item = $('#' + portfolio_grid_container_id + ' .portfolio-filters .filter');
-                
+
             if (portfolio_grid) {
 
                 portfolio_grid.shuffle({
@@ -422,14 +444,14 @@
             }, 400);
             return false;
         });
-        
+
         //Google Maps
-        $("#map").googleMap({
-            zoom: 16 // Google Map ZOOM. You can change this value
-        });
-        $("#map").addMarker({
-            address: "S601 Townsend Street, San Francisco, California, USA", // Your Address. Change it
-        });
+        // $("#map").googleMap({
+        //     zoom: 16 // Google Map ZOOM. You can change this value
+        // });
+        // $("#map").addMarker({
+        //     address: "S601 Townsend Street, San Francisco, California, USA", // Your Address. Change it
+        // });
 
         scrollTop();
 

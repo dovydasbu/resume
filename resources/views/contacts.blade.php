@@ -64,43 +64,52 @@
                                     <h2>How Can I Help You?</h2>
                                 </div>
 
-                                <form id="contact_form" class="contact-form" action="contact_form/contact_form.php" method="post">
-
+                                <form id="contact_form" class="contact-form" action="{{ route('contacts.post') }}" method="pOsT">
+                                    @csrf
                                     <div class="messages"></div>
 
                                     <div class="controls two-columns">
-                                        <div class="fields clearfix">
-                                            <div class="left-column">
-                                                <div class="form-group form-group-with-icon">
-                                                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Full Name" required="required" data-error="Name is required.">
-                                                    <div class="form-control-border"></div>
-                                                    <div class="help-block with-errors"></div>
-                                                </div>
+                                        @if(request()->hasCookie('contact_message_was_sent'))
+                                            <div class="contact-form-restriction">
+                                                The message was sent! <br>
+                                                Unfortunately you can submit only one message every minute! :(
+                                            </div>
+                                        @endif
 
-                                                <div class="form-group form-group-with-icon">
-                                                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Email Address" required="required" data-error="Valid email is required.">
-                                                    <div class="form-control-border"></div>
-                                                    <div class="help-block with-errors"></div>
-                                                </div>
+                                        <div @class(['opacity-when-submitted' => request()->hasCookie('contact_message_was_sent')])>
+                                            <div class="fields clearfix">
+                                                <div class="left-column">
+                                                    <div class="form-group form-group-with-icon">
+                                                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Full Name">
+                                                        <div class="form-control-border"></div>
+                                                        <div class="help-block with-errors"></div>
+                                                    </div>
 
-                                                <div class="form-group form-group-with-icon">
-                                                    <input id="form_name" type="text" name="subject" class="form-control" placeholder="Subject" required="required" data-error="Subject is required.">
-                                                    <div class="form-control-border"></div>
-                                                    <div class="help-block with-errors"></div>
+                                                    <div class="form-group form-group-with-icon">
+                                                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Email Address" required="required" data-error="Valid email is required.">
+                                                        <div class="form-control-border"></div>
+                                                        <div class="help-block with-errors"></div>
+                                                    </div>
+
+                                                    <div class="form-group form-group-with-icon">
+                                                        <input id="form_subject" type="text" name="subject" class="form-control" placeholder="Subject">
+                                                        <div class="form-control-border"></div>
+                                                        <div class="help-block with-errors"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="right-column">
+                                                    <div class="form-group form-group-with-icon">
+                                                        <textarea id="form_message" name="message" class="form-control" placeholder="Message" rows="7" required="required" data-error="Please, leave me a message."></textarea>
+                                                        <div class="form-control-border"></div>
+                                                        <div class="help-block with-errors"></div>
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <div class="right-column">
-                                                <div class="form-group form-group-with-icon">
-                                                    <textarea id="form_message" name="message" class="form-control" placeholder="Message" rows="7" required="required" data-error="Please, leave me a message."></textarea>
-                                                    <div class="form-control-border"></div>
-                                                    <div class="help-block with-errors"></div>
-                                                </div>
-                                            </div>
+
+                                            <script src="https://www.google.com/recaptcha/enterprise.js?render=6Leyc6olAAAAAPV8lXHcsEf9mzIURup0g8wuZVwJ"></script>
+
+                                            <input type="submit" class="button btn-send disabled" value="Send message">
                                         </div>
-
-                                        <div class="g-recaptcha" data-sitekey="6LdqmCAUAAAAAMMNEZvn6g4W5e0or2sZmAVpxVqI"></div>
-
-                                        <input type="submit" class="button btn-send disabled" value="Send message">
                                     </div>
                                 </form>
 

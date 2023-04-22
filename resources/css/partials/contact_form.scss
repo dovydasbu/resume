@@ -1,0 +1,26 @@
+#contact_form {
+	.controls {
+		position: relative;
+	}
+
+	.btn-send {
+		margin-bottom: 0 !important;
+	}
+
+	.opacity-when-submitted {
+		opacity: 0.4;
+	}
+
+	.contact-form-restriction {
+		text-align: center;
+		position: absolute;
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		align-items: center;
+		height: 100%;
+		padding-bottom: 16px;
+		background: rgb(245 245 245 / 50%);
+		z-index: 9;
+	}
+}
