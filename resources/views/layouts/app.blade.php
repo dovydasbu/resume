@@ -9,9 +9,9 @@
     <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, portfolio" />
     <meta name="author" content="lmpixels" />
     <meta name="csrf-token" content="{{ csrf_token() }}" />
-    <link rel="shortcut icon" href="{{ asset('/favicon.ico') }}">
     @vite('resources/css/app.scss')
 
+    <link rel="shortcut icon" href="{{ asset('/img/favicon.ico') }}">
     <link rel="stylesheet" href="{{ asset('css/normalize.css') }}" type="text/css">
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}" type="text/css">
     <link rel="stylesheet" href="{{ asset('css/owl.carousel.css') }}" type="text/css">
