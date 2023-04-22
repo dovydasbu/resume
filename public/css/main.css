@@ -2198,6 +2198,15 @@ ul.social-links li:last-child a {
   font-style: italic;
 }
 
+.testimonial-text p .translated {
+  font-size: 11px;
+}
+
+#testimonials_1 .owl-stage,
+#testimonials_1 .owl-stage .owl-item {
+  width: 100% !important;
+}
+
 .testimonial-author-info {
   margin-top: 15px;
 }
@@ -2378,7 +2387,8 @@ ul.social-links li:last-child a {
   margin: 15px;
 }
 
-.lm-info-block i {
+.lm-info-block i,
+.lm-info-block svg {
   position: relative;
   font-size: 33px;
   color: #007ced;
@@ -2393,6 +2403,7 @@ ul.social-links li:last-child a {
   display: block;
   margin: 10px 0;
   color: #007ced;
+  min-height: 195px;
 }
 
 .lm-info-block-value {
@@ -2401,6 +2412,11 @@ ul.social-links li:last-child a {
   line-height: 52px;
   display: block;
   margin: 15px 0 10px;
+}
+
+.lm-info-block-value.smaller {
+  font-size: 36px;
+  line-height: 40px;
 }
 
 .lm-info-block-text {

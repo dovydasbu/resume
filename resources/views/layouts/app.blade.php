@@ -52,5 +52,7 @@
     <script src="{{ asset('js/jquery.googlemap.js') }}"></script>
     <script src="{{ asset('js/validator.js') }}"></script>
     <script src="{{ asset('js/main.js') }}"></script>
+
+    @stack('scripts')
     </body>
 </html>

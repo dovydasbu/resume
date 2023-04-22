@@ -40,7 +40,7 @@
                                         </div>
                                         <div class="ci-text">
                                             <h4><a href="https://github.com/dovydasbu">Github</a></h4>
-                                            <p>For some coders who stumbled upon</p>
+                                            <p>For some coders who stumbled upon..</p>
                                         </div>
                                     </div>
 
@@ -50,7 +50,7 @@
                                         </div>
                                         <div class="ci-text">
                                             <h4 class="margin-0"><a href="https://www.linkedin.com/in/dovydas-bukauskas/">LinkedIn</a></h4>
-                                            <p>See everything in familiar format ;)</p>
+                                            <p>See everything in familiar format!</p>
                                         </div>
                                     </div>
                                 </div>

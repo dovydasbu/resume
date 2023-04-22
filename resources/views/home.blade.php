@@ -114,20 +114,20 @@
                                         <div class="testimonial-content">
                                             <!-- Picture -->
                                             <div class="testimonial-picture">
-                                                <img src="./img/testimonials/testimonial-1.jpg" alt="Billy Adams"/>
+{{--                                                <img src="{{ asset('/img/testimonials/testimonial-1.jpg') }}" alt="Testimonial"/>--}}
                                             </div>
                                             <!-- /Picture -->
 
                                             <!-- Testimonial Text -->
                                             <div class="testimonial-text">
-                                                <p>Donec eu est vel metus consequat volutpat. Nunc aliquet euismod mauris, a feugiat urna ullamcorper non.</p>
+                                                <p><span class="translated">(translated)</span> We did our companies logistics management system and it was a pleasure to work with Dovydas. Provided many valuable solutions and ideas not only from technology, but the project development side also.</p>
                                             </div>
                                             <!-- /Testimonial Text -->
 
                                             <!-- Testimonial author information -->
                                             <div class="testimonial-author-info">
-                                                <h5 class="testimonial-author">Billy Adams</h5>
-                                                <p class="testimonial-firm">Rolling Thunder</p>
+                                                <h5 class="testimonial-author">Gintaras</h5>
+                                                <p class="testimonial-firm">Sostinės verslo vizija</p>
                                             </div>
                                             <!-- /Testimonial author information -->
 
@@ -142,78 +142,6 @@
                                         <!-- /Testimonial Content -->
                                     </div>
                                     <!-- End of Testimonial 1 -->
-
-                                    <!-- Testimonial 2 -->
-                                    <div class="testimonial-item">
-                                        <!-- Testimonial Content -->
-                                        <div class="testimonial-content">
-                                            <!-- Picture -->
-                                            <div class="testimonial-picture">
-                                                <img src="./img/testimonials/testimonial-2.jpg" alt="Gary Johnson"/>
-                                            </div>
-                                            <!-- /Picture -->
-
-                                            <!-- Testimonial Text -->
-                                            <div class="testimonial-text">
-                                                <p>Nam tempor commodo mi id sodales. Aenean sit amet nibh nec sapien consequat porta a sit amet diam.</p>
-                                            </div>
-                                            <!-- /Testimonial Text -->
-
-                                            <!-- Testimonial author information -->
-                                            <div class="testimonial-author-info">
-                                                <h5 class="testimonial-author">Gary Johnson</h5>
-                                                <p class="testimonial-firm">Locost Accessories</p>
-                                            </div>
-                                            <!-- /Testimonial author information -->
-
-                                            <div class="testimonial-icon">
-                                                <i class="fa fa-quote-left"></i>
-                                            </div>
-
-                                            <div class="testimonial-icon-big">
-                                                <i class="fa fa-quote-right"></i>
-                                            </div>
-                                        </div>
-                                        <!-- /Testimonial Content -->
-                                    </div>
-                                    <!-- End of Testimonial 2 -->
-
-                                    <!-- End of Testimonial 3 -->
-                                    <div class="testimonial-item">
-
-                                        <!-- Testimonial Content -->
-                                        <div class="testimonial-content">
-                                            <!-- Picture -->
-                                            <div class="testimonial-picture">
-                                                <img src="./img/testimonials/testimonial-3.jpg" alt="Daniel Pringle"/>
-                                            </div>
-                                            <!-- /Picture -->
-
-                                            <!-- Testimonial Text -->
-                                            <div class="testimonial-text">
-                                                <p>Etiam pretium ipsum quis justo dictum accumsan. Phasellus egestas odio a velit scelerisque.</p>
-                                            </div>
-                                            <!-- /Testimonial Text -->
-
-                                            <!-- Testimonial author information -->
-                                            <div class="testimonial-author-info">
-                                                <h5 class="testimonial-author">Daniel Pringle</h5>
-                                                <p class="testimonial-firm">Sagebrush</p>
-                                            </div>
-                                            <!-- /Testimonial author information -->
-
-                                            <div class="testimonial-icon">
-                                                <i class="fa fa-quote-left"></i>
-                                            </div>
-
-                                            <div class="testimonial-icon-big">
-                                                <i class="fa fa-quote-right"></i>
-                                            </div>
-                                        </div>
-                                        <!-- /Testimonial Content -->
-
-                                    </div>
-                                    <!-- End of Testimonial 3 -->
                                 </div>
                                 <!-- /Testimonials -->
 
@@ -237,12 +165,38 @@
 
                         <div class="row">
                             <div class="col-xs-12 col-sm-3">
-                                <div class="lm-info-block gray-default">
-                                    <i class="linecons linecons-heart"></i>
-                                    <h4>Happy Clients</h4>
-                                    <span class="lm-info-block-value">578</span>
+                                <a href="#" class="lm-info-block gray-default">
+
+                                    <svg fill="#007ced" width="52" height="52" version="1.1" id="lni_lni-game" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                                         y="0px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+                                            <g>
+                                                <path d="M59.4,25.1c-1.9-1.9-4.6-3.1-7.3-3.1H34.2V6.6c0-1.2-1-2.3-2.3-2.3s-2.3,1-2.3,2.3v15.5H12c-5.6,0-10.2,4.5-10.2,10.1v17.4
+                                                    c0,5.6,4.6,10.1,10.2,10.1c5.1,0,9.3-3.7,10.1-8.4h20c0.8,4.8,5,8.5,10.1,8.5c5.6,0,10.2-4.5,10.2-10.1V32.2
+                                                    C62.3,29.6,61.3,27.1,59.4,25.1z M57.7,49.6c0,3.1-2.5,5.6-5.7,5.6c-3.2,0-5.7-2.5-5.7-5.6c0-1.6-1.3-2.9-2.9-2.9H20.6
+                                                    c-1.6,0-2.9,1.3-2.9,2.9c0,3-2.6,5.5-5.7,5.5c-3.2,0-5.7-2.5-5.7-5.6V32.2c0-3.1,2.6-5.6,5.7-5.6h40.1c1.5,0,3,0.6,4.1,1.7
+                                                    c1,1,1.6,2.4,1.6,3.9V49.6z"/>
+                                                <path d="M21.1,34.8h-2.2v-2.1c0-1.2-1-2.3-2.3-2.3s-2.3,1-2.3,2.3v2.1h-2.2c-1.2,0-2.3,1-2.3,2.3s1,2.3,2.3,2.3h2.2v2.1
+                                                    c0,1.2,1,2.3,2.3,2.3s2.3-1,2.3-2.3v-2.1h2.2c1.2,0,2.3-1,2.3-2.3S22.3,34.8,21.1,34.8z"/>
+                                                <path d="M49,35c0.2,0,0.3,0,0.4,0c0.1,0,0.3-0.1,0.4-0.1c0.1-0.1,0.3-0.1,0.4-0.2s0.2-0.2,0.3-0.3c0.4-0.4,0.7-1,0.7-1.6
+                                                    c0-0.6-0.2-1.2-0.7-1.6c-0.1-0.1-0.2-0.2-0.3-0.3s-0.3-0.1-0.4-0.2c-0.1-0.1-0.3-0.1-0.4-0.1c-0.7-0.1-1.5,0.1-2,0.6
+                                                    c-0.4,0.4-0.7,1-0.7,1.6c0,0.6,0.2,1.2,0.7,1.6C47.8,34.7,48.4,35,49,35z"/>
+                                                <path d="M46.2,35.5c-0.1-0.1-0.2-0.2-0.3-0.3s-0.3-0.1-0.4-0.2c-0.1-0.1-0.3-0.1-0.4-0.1c-0.7-0.1-1.5,0.1-2,0.6
+                                                    c-0.4,0.4-0.7,1-0.7,1.6c0,0.6,0.2,1.2,0.7,1.6c0.2,0.2,0.5,0.4,0.7,0.5c0.3,0.1,0.6,0.2,0.9,0.2c0.2,0,0.3,0,0.4,0
+                                                    c0.2,0,0.3-0.1,0.4-0.1c0.1,0,0.3-0.1,0.4-0.2c0.1-0.1,0.2-0.2,0.3-0.3c0.4-0.4,0.7-1,0.7-1.6C46.9,36.5,46.6,35.9,46.2,35.5z"/>
+                                                <path d="M47.4,40.3c-0.4,0.4-0.7,1-0.7,1.6c0,0.6,0.2,1.2,0.7,1.6c0.1,0.1,0.2,0.2,0.3,0.3c0.1,0.1,0.3,0.2,0.4,0.2
+                                                    c0.1,0.1,0.3,0.1,0.4,0.1c0.1,0,0.3,0,0.4,0c0.2,0,0.3,0,0.4,0c0.1,0,0.3-0.1,0.4-0.1c0.1-0.1,0.3-0.1,0.4-0.2
+                                                    c0.1-0.1,0.2-0.2,0.3-0.3c0.4-0.4,0.7-1,0.7-1.6c0-0.6-0.2-1.2-0.7-1.6C49.8,39.4,48.3,39.4,47.4,40.3z"/>
+                                                <path d="M55.4,36.2c-0.1-0.1-0.1-0.3-0.2-0.4c-0.1-0.1-0.2-0.2-0.3-0.3c-0.5-0.5-1.3-0.8-2-0.6c-0.1,0-0.3,0.1-0.4,0.1
+                                                    c-0.1,0-0.3,0.1-0.4,0.2s-0.2,0.2-0.3,0.3c-0.1,0.1-0.2,0.2-0.3,0.3c-0.1,0.1-0.2,0.3-0.2,0.4c-0.1,0.1-0.1,0.3-0.1,0.4
+                                                    c0,0.1,0,0.3,0,0.4c0,0.6,0.2,1.2,0.7,1.6c0.4,0.4,1,0.7,1.6,0.7c0.6,0,1.2-0.2,1.6-0.7c0.4-0.4,0.7-1,0.7-1.6c0-0.1,0-0.3,0-0.4
+                                                    C55.5,36.5,55.5,36.4,55.4,36.2z"/>
+                                            </g>
+                                    </svg>
+
+                                    <h4>Built a snake game</h4>
+                                    <span class="lm-info-block-value smaller">Try It -></span>
                                     <span class="lm-info-block-text"></span>
-                                </div>
+                                </a>
                             </div>
 
                             <div class="col-xs-12 col-sm-3">
@@ -257,8 +211,8 @@
                             <div class="col-xs-12 col-sm-3 ">
                                 <div class="lm-info-block gray-default">
                                     <i class="linecons linecons-star"></i>
-                                    <h4>Awards Won</h4>
-                                    <span class="lm-info-block-value">15</span>
+                                    <h4>Foosball Trophies Won</h4>
+                                    <span class="lm-info-block-value">19</span>
                                     <span class="lm-info-block-text"></span>
                                 </div>
                             </div>
