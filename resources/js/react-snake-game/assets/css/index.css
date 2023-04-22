@@ -28,12 +28,16 @@ body.playable {
     overflow: hidden;
 }
 
+#snake-game button {
+    color: #484848;
+}
 
 #snake-game button:hover,
 #snake-game button:focus {
     background-color: transparent;
     border: 3px solid #24252a;
     outline: none;
+    color: black;
 }
 
 .fullscreen-enabled {

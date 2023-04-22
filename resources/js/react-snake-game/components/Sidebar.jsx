@@ -45,7 +45,16 @@ const ListStyled = styled.ul`
 const Sidebar = ({ isOpen }) => (
   <SidebarWrap className={isOpen ? 'is-open' : ''}>
     <Inner>
+      <h2>Info</h2>
+
+      <ul>
+        <li>Page becomes unscrollable when game starts</li>
+        <li>With every 15 seconds the snake speed increases</li>
+        <li>May the best win!</li>
+      </ul>
+
       <h2>Controls</h2>
+
       <ul>
         <li>With arrow keys</li>
       </ul>
@@ -60,6 +69,10 @@ const Sidebar = ({ isOpen }) => (
       <ListStyled hiddenOnPhone>
         <li>P for pause</li>
       </ListStyled>
+
+      <ul>
+        <li>Esc to exit</li>
+      </ul>
     </Inner>
   </SidebarWrap>
 )

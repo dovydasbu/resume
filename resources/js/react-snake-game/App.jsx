@@ -37,6 +37,12 @@ const HamburgerBtn = styled(Button)`
   font-weight: 700;
   z-index: 999999;
   margin: 0 !important;
+  
+  ${props => props.isOpen && `
+    position: absolute;
+    top: 45px;
+    left: 20px;
+  `}
 `
 
 class App extends Component {
@@ -89,7 +95,7 @@ class App extends Component {
 
           <BottomButtonWrap>
             { isSidebarOpen ? (
-              <HamburgerBtn onClick={this.toggleSidebar} text="X" type="hamburger" />
+              <HamburgerBtn isOpen onClick={this.toggleSidebar} text="X" type="hamburger" />
             ) : (
               <HamburgerBtn onClick={this.toggleSidebar} text="?" type="hamburger" />
             )}

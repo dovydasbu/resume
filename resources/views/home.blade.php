@@ -165,7 +165,7 @@
 
                         <div class="row">
                             <div class="col-xs-12 col-sm-3">
-                                <a href="#" class="lm-info-block gray-default">
+                                <a href="{{ route('page', ['page' => 'snake-game']) }}" class="lm-info-block gray-default">
 
                                     <svg fill="#007ced" width="52" height="52" version="1.1" id="lni_lni-game" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
                                          y="0px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
@@ -194,7 +194,7 @@
                                     </svg>
 
                                     <h4>Built a snake game</h4>
-                                    <span class="lm-info-block-value smaller">Try It -></span>
+                                    <span class="lm-info-block-value lm-info-block-text"><span href="#">PLAY</span></span>
                                     <span class="lm-info-block-text"></span>
                                 </a>
                             </div>
