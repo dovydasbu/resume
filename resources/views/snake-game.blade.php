@@ -6,6 +6,12 @@
         @include('partials.header', ['tab' => 'react-game'])
 
         <div id="main" class="site-main">
+            <div class="page-title smaller-padding text-center">
+                <p>
+                    Once I had an idea to make a nostalgic old school snake game, which we used to play as kids on our Nokia phones. Then I understood that while developing it I could learn some new technology and I went with React.js. Here is the result, enjoy!
+                </p>
+            </div>
+
             <div id="snake-game"></div>
         </div>
 

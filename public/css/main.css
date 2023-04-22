@@ -1356,6 +1356,11 @@ td {
   text-align: left;
 }
 
+.page-title.smaller-padding {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
 .list-view .page-title {
   margin-bottom: 35px;
 }

@@ -74,7 +74,8 @@
 
                                         <div class="ci-text">
                                             <h4>Backend Development</h4>
-                                            <p>Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris convallis dictum elit id volutpat. Vivamus blandit, dolor vitae lacinia maximus, risus velit vehicula odio, a tincidunt turpis turpis tempus ex.</p>
+
+                                            <p>I am developing software solutions based on PHP, Laravel framework. I am fully capable to solve all problems associated with backend functionality. It could be anything: API for an application, SPA or simple website - I got you! During the process in order to ensure good quality of the product I implement such principles as OOP, Unit Testing, and tools such as Test Coverage Tools (PhpUnit), Code Quality Checkers (PHPSTAN), Code formatter (PINT).</p>
                                         </div>
                                     </div>
                                 </div>
@@ -90,7 +91,7 @@
 
                                         <div class="ci-text">
                                             <h4>Frontend Development</h4>
-                                            <p>Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris convallis dictum elit id volutpat. Vivamus blandit, dolor vitae lacinia maximus, risus velit vehicula odio, a tincidunt turpis turpis tempus ex.</p>
+                                            <p>As my main speciality and area of interest is backend software solutions, I am also capable of managing frontend tasks. For simpler type of websites I am going with Alpine.js and Tailwind frameworks. For more complex functionality I tend to choose React.js and if there is a requirement I could do work on Vue.js/nuxt frameworks.</p>
                                         </div>
                                     </div>
                                 </div>
