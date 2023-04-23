@@ -1,0 +1,26 @@
+{
+  "resources/css/app.scss": {
+    "file": "assets/app-caf288c6.css",
+    "isEntry": true,
+    "src": "resources/css/app.scss"
+  },
+  "resources/js/app.css": {
+    "file": "assets/app-d72485c6.css",
+    "src": "resources/js/app.css"
+  },
+  "resources/js/app.jsx": {
+    "assets": [
+      "assets/joystix_monospace-a84a4269.ttf"
+    ],
+    "css": [
+      "assets/app-d72485c6.css"
+    ],
+    "file": "assets/app-b5f8045d.js",
+    "isEntry": true,
+    "src": "resources/js/app.jsx"
+  },
+  "resources/js/react-snake-game/assets/fonts/joystix_monospace.ttf": {
+    "file": "assets/joystix_monospace-a84a4269.ttf",
+    "src": "resources/js/react-snake-game/assets/fonts/joystix_monospace.ttf"
+  }
+}
