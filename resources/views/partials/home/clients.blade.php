@@ -47,7 +47,7 @@
     </div>
 
     <div class="client-block">
-        <a href="#" target="_blank" title="Transkiedra">
+        <a title="Transkiedra">
             <div class="img-wrap">
                 <img src="{{ asset('img/clients/transkiedra-blue.jpeg') }}" alt="Transkiedra">
             </div>
@@ -88,7 +88,7 @@
     </div>
 
     <div class="client-block">
-        <a href="#" target="_blank" title="Dizaino arkliukas">
+        <a title="Dizaino arkliukas">
             <div class="img-wrap">
                 <img src="{{ asset('img/clients/dizark.png') }}" alt="Dizaino arkliukas">
             </div>
