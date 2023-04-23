@@ -970,7 +970,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   background: #dfdfdf;
   margin: 0 !important;
   
-  @media(max-width: 1900px) {
+  @media(max-width: 991px) {
     display: none;
   }
 `,Hc=be(zo)`
