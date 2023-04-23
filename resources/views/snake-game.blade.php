@@ -3,7 +3,7 @@
 @section('content')
     <div id="page_container" class="page-container bg-move-effect" data-animation="transition-flip-in-right">
 
-        @include('partials.header', ['tab' => 'react-game'])
+        @include('partials.header', ['tab' => 'snake-game'])
 
         <div id="main" class="site-main">
             <div class="page-title smaller-padding text-center">
@@ -13,6 +13,12 @@
             </div>
 
             <div id="snake-game"></div>
+
+            <div id="snake-game-disclaimer">
+                Unfortunately your screen is too small to play the snake game :( <br> <br>
+                Try to play it on computer or <br>
+                If you are using phone, try to flip it or enter the desktop mode.
+            </div>
         </div>
 
         @include('partials.footer')

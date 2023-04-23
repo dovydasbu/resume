@@ -26,7 +26,7 @@ const FullscreenBtn = styled(Button)`
   background: #dfdfdf;
   margin: 0 !important;
   
-  @media(max-width: 1900px) {
+  @media(max-width: 991px) {
     display: none;
   }
 `

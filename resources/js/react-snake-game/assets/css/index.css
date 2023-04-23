@@ -24,8 +24,39 @@ body.playable {
 
 #snake-game {
     position: relative;
-    /*padding-top: 100px;*/
     overflow: hidden;
+    margin-right: -70px;
+    margin-left: -70px;
+}
+
+@media only screen and (max-width: 991px) {
+    #snake-game {
+        margin-right: -40px;
+        margin-left: -40px;
+    }
+}
+
+#snake-game-disclaimer {
+    display: none;
+    text-align: center;
+    font-size: 17px;
+    height: 100%;
+    min-height: 400px;
+    border: 1px solid grey;
+    padding-top: 100px;
+    box-shadow: 0px 0px 41px -15px rgba(0,0,0,0.75) inset;
+    -webkit-box-shadow: 0px 0px 41px -15px rgba(0,0,0,0.75) inset;
+    -moz-box-shadow: 0px 0px 41px -15px rgba(0,0,0,0.75) inset;
+}
+
+@media only screen and (max-width: 800px) {
+    #snake-game {
+        display: none;
+    }
+
+    #snake-game-disclaimer {
+        display: block;
+    }
 }
 
 #snake-game button {

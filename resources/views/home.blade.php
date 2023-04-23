@@ -165,7 +165,7 @@
                         </div>
 
                         <div class="row">
-                            <div class="col-xs-12 col-sm-3">
+                            <div class="col-xs-12 col-sm-6 col-xl-3">
                                 <a href="{{ route('page', ['page' => 'snake-game']) }}" class="lm-info-block gray-default">
 
                                     <svg fill="#007ced" width="52" height="52" version="1.1" id="lni_lni-game" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
@@ -200,7 +200,7 @@
                                 </a>
                             </div>
 
-                            <div class="col-xs-12 col-sm-3">
+                            <div class="col-xs-12 col-sm-6 col-xl-3">
                                 <div class="lm-info-block gray-default">
                                     <i class="linecons linecons-clock"></i>
                                     <h4>Working Days</h4>
@@ -209,7 +209,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-xs-12 col-sm-3 ">
+                            <div class="col-xs-12 col-sm-6 col-xl-3">
                                 <div class="lm-info-block gray-default">
                                     <i class="linecons linecons-star"></i>
                                     <h4>Foosball Trophies Won</h4>
@@ -218,7 +218,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-xs-12 col-sm-3 ">
+                            <div class="col-xs-12 col-sm-6 col-xl-3">
                                 <div class="lm-info-block gray-default">
                                     <i class="linecons linecons-cup"></i>
                                     <h4>Coffee Consumed</h4>

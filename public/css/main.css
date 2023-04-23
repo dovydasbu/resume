@@ -82,7 +82,9 @@ body {
   z-index: -1;
 }
 /* /Body Animated Background */
-
+#content {
+  margin-bottom: 60px;
+}
 .page-scroll {
   width: 100%;
   height: auto;
@@ -2371,6 +2373,12 @@ ul.social-links li:last-child a {
   -o-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1260px) {
+  .lm-info-block {
+    min-height: 213px;
+  }
 }
 
 .lm-info-block:hover {
@@ -5058,6 +5066,12 @@ a.post-thumbnail:hover {
   border-bottom-right-radius: 40px;
 }
 
+@media only screen and (max-width: 991px) {
+  .site-footer {
+    margin-top: auto;
+  }
+}
+
 .footer-social {
   float: left;
 }
@@ -5192,9 +5206,9 @@ a.post-thumbnail:hover {
     margin: 0;
     max-width: 100%;
     min-width: 100%;
-    min-height: 100%;
     width: 100%;
     padding: 52px 40px 60px;
+    min-height: 100vh;
   }
 
   .page-title {

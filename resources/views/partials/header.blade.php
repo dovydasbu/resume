@@ -26,7 +26,7 @@
                     <a href="{{ route('page', 'contacts') }}">Contact</a>
                 </li>
 
-                <li @class(['menu-item', 'current-menu-item' => $tab === 'snake-game'])>
+                <li @class(['menu-item', 'menu-item-snake-game', 'current-menu-item' => $tab === 'snake-game'])>
                     <a href="{{ route('page', 'snake-game') }}">Let's play!</a>
                 </li>
             </ul>
