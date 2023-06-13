@@ -33,4 +33,19 @@ return [
         realpath(storage_path('framework/views'))
     ),
 
+    /*
+    |--------------------------------------------------------------------------
+    | Specify if some of UI parts should be shown
+    |--------------------------------------------------------------------------
+    |
+    | This option determines where all the compiled Blade templates will be
+    | stored for your application. Typically, this is within the storage
+    | directory. However, as usual, you are free to change this value.
+    |
+    */
+
+    'versions' => [
+        'contact_form' => env('VIEW_CONTACT_FORM_VERSION', 1)
+    ]
+
 ];
