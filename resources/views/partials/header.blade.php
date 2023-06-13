@@ -4,7 +4,7 @@
 
         <!-- Text Logo -->
         <div class="text-logo">
-            <a href="{{ route('home') }}">
+            <a href="{{ route('page') }}">
                 <div class="logo-symbol">D</div>
                 <div class="logo-text">Dovydas <span>Bukauskas</span></div>
             </a>
@@ -15,7 +15,7 @@
         <div class="site-nav mobile-menu-hide">
             <ul class="leven-classic-menu site-main-menu">
                 <li @class(['menu-item', 'current-menu-item' => $tab === 'home'])>
-                    <a href="{{ route('home') }}">{{ __('About Me') }}</a>
+                    <a href="{{ route('page') }}">{{ __('About Me') }}</a>
                 </li>
 
                 <li @class(['menu-item', 'current-menu-item' => $tab === 'resume'])>
