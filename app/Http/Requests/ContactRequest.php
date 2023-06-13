@@ -11,6 +11,10 @@ class ContactRequest extends FormRequest
      */
     public function authorize(): bool
     {
+        if (config('view.versions.contact_form') === 'v2') {
+            return false;
+        }
+
         return true;
     }
 
