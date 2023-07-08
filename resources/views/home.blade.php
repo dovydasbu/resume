@@ -75,7 +75,7 @@
                                         <div class="ci-text">
                                             <h4>Backend Development</h4>
 
-                                            <p>I am developing software solutions based on PHP, Laravel framework. I am fully capable to solve all problems associated with backend functionality. It could be anything: API for an application, SPA or simple website - I got you! During the process in order to ensure good quality of the product I implement such principles as OOP, Unit Testing, and tools such as Test Coverage Tools (PhpUnit), Code Quality Checkers (PHPSTAN), Code formatter (PINT).</p>
+                                            <p>I am developing software solutions based on PHP, Laravel framework. I am fully capable to solve all problems associated with backend functionality. It could be anything: API for an application, SPA or simple website - I got you! During the process in order to ensure good quality of the product I implement such principles as OOP (Object Oriented Programming), DDD (Domain-Drive Design) , Unit Testing, and tools such as Test Coverage Tools (PhpUnit), Code Quality Checkers (PHPSTAN), Code formatter (PINT).</p>
                                         </div>
                                     </div>
                                 </div>
