@@ -20,6 +20,8 @@ class PageReceiver
     public function handle()
     {
         if ($this->isHomePage()) {
+            $this->incrementPageVisit();
+
             return view('home');
         }
 
