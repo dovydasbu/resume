@@ -21,7 +21,10 @@
     <script src="{{ asset('js/modernizr.custom.js') }}"></script>
 </head>
 
-<body class="page">
+<body @class([
+    'page',
+    isset($bodyClass) ? $bodyClass : ''
+])>
     <div class="lm-animated-bg"></div>
 
     <!-- Loading animation -->

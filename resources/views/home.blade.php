@@ -43,7 +43,7 @@
 
                                                 <div class="home-buttons">
                                                     <a href="{{ asset('files/Dovydas-Bukauskas-CV.pdf') }}" download class="btn btn-primary">{{ __('Download CV') }}</a>
-                                                    <a href="{{ route('page', 'contacts') }}" target="_self" class="btn btn-secondary">{{ __('Contact') }}</a>
+                                                    <a href="{{ route('page', 'contacts') }}" target="_self" class="btn btn-secondary">{{ __('Contacts') }}</a>
                                                 </div>
                                             </div>
                                         </div>

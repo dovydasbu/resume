@@ -10,7 +10,8 @@ class PageReceiver
 
     public function __construct(
         string $slug = null
-    ) {
+    )
+    {
         $this->slug = is_null($slug) ? Page::HOME_SLUG : $slug;
     }
 
