@@ -58,7 +58,14 @@
 
                                 <div id="timeline_2" class="timeline clearfix">
                                     <div class="timeline-item clearfix">
-                                        <h5 class="item-period current">2021 - Current</h5>
+                                        <h5 class="item-period current">2023 - Current</h5>
+                                        <span class="item-company">US Bank</span>
+                                        <h4 class="item-title">PHP Developer</h4>
+                                        <p>Developed REST API and all kinds of background processes with teams managed by SCRUM principle.</p>
+                                    </div>
+
+                                    <div class="timeline-item clearfix">
+                                        <h5 class="item-period current">2021 - 2023</h5>
                                         <span class="item-company">Kinfirm</span>
                                         <h4 class="item-title">Web Developer</h4>
                                         <p>Developed B2B principle based software in order to help clients organize companies work with a centralized software units.</p>

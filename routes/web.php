@@ -17,4 +17,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/{page?}', [PageController::class, 'show'])->name('page');
 
-Route::post('/contacts-post', ContactController::class)->name('contacts.post');
+// Route::post('/contacts-post', ContactController::class)->name('contacts.post');

@@ -23,7 +23,7 @@
                 </li>
 
                 <li @class(['menu-item', 'current-menu-item' => $tab === 'contacts'])>
-                    <a href="{{ route('page', 'contacts') }}">Contact</a>
+                    <a href="{{ route('page', 'contacts') }}">Contacts</a>
                 </li>
 
                 <li @class(['menu-item', 'menu-item-snake-game', 'current-menu-item' => $tab === 'snake-game'])>
