@@ -9,9 +9,8 @@ class PageReceiver
     private string $slug;
 
     public function __construct(
-        string $slug = null
-    )
-    {
+        ?string $slug = null
+    ) {
         $this->slug = is_null($slug) ? Page::HOME_SLUG : $slug;
     }
 
@@ -26,11 +25,11 @@ class PageReceiver
             return view('home');
         }
 
-        if (!$this->pageExists()) {
+        if (! $this->pageExists()) {
             abort(404);
         }
 
-        if (!$this->pageModelExists()) {
+        if (! $this->pageModelExists()) {
             abort(404);
         }
 
