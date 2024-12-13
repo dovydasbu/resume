@@ -14,12 +14,55 @@
                     <div class="page-title">
                         <h1>Resume</h1>
                         <div class="page-subtitle">
-                            <h4> 6 Years of Experience</h4>
+                            <h4> {{ now()->diffInYears(\Carbon\Carbon::parse('2017-01-01 00:00:00')) }} Years of Experience</h4>
                         </div>
                     </div>
 
                     <div id="content" class="page-content site-content single-post" role="main">
                         <div class="row">
+
+                            <div class=" col-xs-12 col-sm-6 ">
+                                <div class="block-title">
+                                    <h2>Experience</h2>
+                                </div>
+
+                                <div id="timeline_2" class="timeline clearfix">
+                                    <div class="timeline-item clearfix">
+                                        <h5 class="item-period current">2024 - Current</h5>
+                                        <span class="item-company">Digital AZ &#8226; Contract</span>
+                                        <h4 class="item-title">Full Stack Developer</h4>
+                                        <p>Developed REST API and all kinds of background processes with teams managed by SCRUM principle.</p>
+                                    </div>
+
+                                    <div class="timeline-item clearfix">
+                                        <h5 class="item-period current">2023 - 2024</h5>
+                                        <span class="item-company">US Bank &#8226; Contract</span>
+                                        <h4 class="item-title">PHP Developer</h4>
+                                        <p>Developed REST API and all kinds of background processes with teams managed by SCRUM principle.</p>
+                                    </div>
+
+                                    <div class="timeline-item clearfix">
+                                        <h5 class="item-period current">2021 - 2023</h5>
+                                        <span class="item-company">Kinfirm</span>
+                                        <h4 class="item-title">Web Developer</h4>
+                                        <p>Developed B2B principle based software in order to help clients organize companies work with a centralized software units.</p>
+                                    </div>
+
+                                    <div class="timeline-item clearfix">
+                                        <h5 class="item-period ">2018 - 2021</h5>
+                                        <span class="item-company">Digital AZ &#8226; Contract</span>
+                                        <h4 class="item-title">Web Developer</h4>
+                                        <p>Mainly worked with laravel and wordpress. Time to time front-end and mobile development tasks were taken care of.</p>
+                                    </div>
+
+                                    <div class="timeline-item clearfix">
+                                        <h5 class="item-period ">2017 - 2018</h5>
+                                        <span class="item-company">Dizaino arkliukas</span>
+                                        <h4 class="item-title">Junior Web Developer</h4>
+                                        <p>Developed websites mainly on wordpress, had a touch with laravel projects. Needed a lot of out of the box thinking in order to adapt wordpress for custom solutions.</p>
+                                    </div>
+                                </div>
+                            </div>
 
                             <div class=" col-xs-12 col-sm-6 ">
                                 <div class="block-title">
@@ -48,42 +91,13 @@
                                         <p>Finished top 5 gymnasium in whole Lithuania.</p>
                                     </div>
 
-                                </div>
-                            </div>
-
-                            <div class=" col-xs-12 col-sm-6 ">
-                                <div class="block-title">
-                                    <h2>Experience</h2>
-                                </div>
-
-                                <div id="timeline_2" class="timeline clearfix">
                                     <div class="timeline-item clearfix">
-                                        <h5 class="item-period current">2023 - Current</h5>
-                                        <span class="item-company">US Bank</span>
-                                        <h4 class="item-title">PHP Developer</h4>
-                                        <p>Developed REST API and all kinds of background processes with teams managed by SCRUM principle.</p>
+                                        <h5 class="item-period ">All year around</h5>
+{{--                                        <span class="item-company">Vilnius Žirmūnai gymnasium</span>--}}
+                                        <h4 class="item-title">Courses</h4>
+                                        <p>Updating my knowlegde with courses and books. In the beggining started out with laracasts then migrated to more specific courses, books related to the current working topic.</p>
                                     </div>
 
-                                    <div class="timeline-item clearfix">
-                                        <h5 class="item-period current">2021 - 2023</h5>
-                                        <span class="item-company">Kinfirm</span>
-                                        <h4 class="item-title">Web Developer</h4>
-                                        <p>Developed B2B principle based software in order to help clients organize companies work with a centralized software units.</p>
-                                    </div>
-
-                                    <div class="timeline-item clearfix">
-                                        <h5 class="item-period ">2018 - 2021</h5>
-                                        <span class="item-company">Digital AZ</span>
-                                        <h4 class="item-title">Web Developer</h4>
-                                        <p>Mainly worked with laravel and wordpress. Time to time front-end and mobile development tasks were taken care of.</p>
-                                    </div>
-
-                                    <div class="timeline-item clearfix">
-                                        <h5 class="item-period ">2017 - 2018</h5>
-                                        <span class="item-company">Dizaino arkliukas</span>
-                                        <h4 class="item-title">Junior Web Developer</h4>
-                                        <p>Developed websites mainly on wordpress, had a touch with laravel projects. Needed a lot of out of the box thinking in order to adapt wordpress for custom solutions.</p>
-                                    </div>
                                 </div>
                             </div>
                         </div>

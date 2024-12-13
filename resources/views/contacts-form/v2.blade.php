@@ -50,14 +50,15 @@
                 </div>
             </div>
 
-            <div class="col-12 col-md-6 info-block-w-icon">
+            <div class="col-12 col-md-6 info-block-w-icon" style="display: flex; align-items: center;">
                 <div class="ci-icon">
                     <i class="linecons linecons-location"></i>
                 </div>
                 <div class="ci-text">
-                    <h4>
+                    <h4 class="margin-0">
                         <a href="https://www.google.lt/maps/place/Vilnius,+Vilnius+City+Municipality/@54.7005727,25.0882316,11z/data=!3m1!4b1!4m6!3m5!1s0x46dd93fb5c6408f5:0x400d18c70e9dc40!8m2!3d54.6871555!4d25.2796514!16zL20vMDdfa3E"
                            target="_blank">Vilnius, Lithuania</a></h4>
+                    <p>Based in Lithuania, but can work remotely!</p>
                 </div>
             </div>
         </div>
