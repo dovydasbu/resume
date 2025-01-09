@@ -32,7 +32,7 @@ class SendContactRequestEmail extends Command
     {
         $contactRequest = ContactRequest::first();
 
-        if (!$contactRequest) {
+        if (! $contactRequest) {
             $contactRequest = ContactRequest::query()->create([
                 'name' => 'Test Testausk',
                 'email' => 'test@test.com',

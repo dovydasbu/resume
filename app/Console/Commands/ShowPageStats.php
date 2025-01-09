@@ -29,7 +29,7 @@ class ShowPageStats extends Command
     public function handle()
     {
         foreach (Page::all() as $page) {
-            $this->info("{$page->slug}: " . $this->getVisits($page));
+            $this->info("{$page->slug}: ".$this->getVisits($page));
         }
     }
 

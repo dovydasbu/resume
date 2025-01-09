@@ -45,7 +45,7 @@ return [
     */
 
     'versions' => [
-        'contact_form' => env('VIEW_CONTACT_FORM_VERSION', 1)
-    ]
+        'contact_form' => env('VIEW_CONTACT_FORM_VERSION', 1),
+    ],
 
 ];
