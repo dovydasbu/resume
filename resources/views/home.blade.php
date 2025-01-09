@@ -42,7 +42,7 @@
                                                 <p>{{ __('Developing all kinds of web and mobile applications, business management systems. Highly intereseted in architecture and backend solutions of developed software, nevertheless can manage frontend tasks with confidence.') }}</p>
 
                                                 <div class="home-buttons">
-                                                    <a href="{{ asset('files/Dovydas-Bukauskas-CV.pdf') }}" download class="btn btn-primary">{{ __('Download CV') }}</a>
+{{--                                                    <a href="{{ asset('files/Dovydas-Bukauskas-CV.pdf') }}" download class="btn btn-primary">{{ __('Download CV') }}</a>--}}
                                                     <a href="{{ route('page', 'contacts') }}" target="_self" class="btn btn-secondary">{{ __('Contacts') }}</a>
                                                 </div>
                                             </div>
